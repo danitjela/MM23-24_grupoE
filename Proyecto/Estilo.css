@@ -1,0 +1,76 @@
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#menu li{
+	display: inline-block;
+	margin-right: 10px;
+}
+#menu li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: black;
+}
+#menu li a:hover{
+	background-color: lightblue;
+}
+#caja1 {
+	border: 3px solid black;
+	padding: 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#empresa{
+	display: inline-block;
+	vertical-align: middle;
+	color: skyblue;
+	font-size: 45px;
+	margin-right: 50px;
+}
+#caja0 {
+	text-align: center;
+}
+#logo{
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+body{
+	background-color: ghostwhite;
+}
+#grito{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	color: darkgreen;
+	text-align: center;
+}
+.contribuciones{
+	border: 3px solid black;
+	padding: 10px;
+	flex-grow: 1;
+	width: 40%;
+}
+#texto{
+	flex-grow: 3;
+}
+#columna2{
+	display: flex;
+}
+#columna1{
+	display: flex;
+}
+#columnaImagen{
+	flex-grow: 1;
+}
+#columnaDescripcion{
+	flex-grow: 2;
+}
+
+
+
