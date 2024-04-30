@@ -1,0 +1,56 @@
+body{
+    background-color: #FFC6BA;
+}
+
+#menu{
+    background-color: #00ffff11;
+    display: flex;
+    flex-flow: row;
+    border: 2px solid #000;
+    justify-content: space-evenly;
+}
+
+.flex_item{
+    padding: 20px;
+}
+
+#columna2{
+    display: flex;
+    flex-flow: row;
+}
+
+#texto{
+    padding: 20px;
+    background-color: #00ffff11;
+
+    border-left:solid #000;
+    border-right:solid #000;
+    flex-grow: 2;
+}
+
+.contribuciones{
+    padding: 20px;
+    background-color: #aaaaff11;
+
+    border-left:solid #000;
+    border-right:solid #000;
+    flex-grow: 1;
+}
+
+#info{
+    color: #fff;
+    background-color: #444;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+#redes{
+    padding: 20px;
+    flex-grow: 1;
+}
+
+#nombres{
+    padding: 20px;
+    flex-grow: 1;
+}
