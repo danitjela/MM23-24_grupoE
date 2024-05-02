@@ -41,7 +41,8 @@
 	vertical-align: middle;
 }
 body{
-	background-color: ghostwhite;
+	font-family: fuente;
+	background-color: #FFC6BA;
 }
 #grito{
 	text-transform: uppercase;
@@ -70,7 +71,62 @@ body{
 }
 #columnaDescripcion{
 	flex-grow: 2;
+	padding: 20px;
+}
+h4, .precio{
+	display: inline-block;
+}
+.precio{
+	font-weight: bold;
+	color: grey;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: 0;
+}
+.cajaContribucion {
+    display: flex;
+   align-items: center;
 }
 
+@media screen and (max-width:500px){
+	#columna1{
+		flex-direction: column;
+	}
+	#columna2{
+		flex-direction: column;
+	}
+	
+	.contribuciones{
+		width: 100%;
+	}
+	.contenido{
+		padding: 10px;
+	}
+}
 
+#imagenPrincipal{
+	width: 400px;
+	height: 200px;
 
+}
+#info{
+    color: #fff;
+    background-color: #444;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+#redes{
+    padding: 20px;
+    flex-grow: 1;
+}
+
+#nombres{
+    padding: 20px;
+    flex-grow: 1;
+}
+@font-face{
+	font-family: fuente;
+	src: url('Fonts/ThemundayEsp2.ttf') format('trueype');
+}
