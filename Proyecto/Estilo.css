@@ -73,6 +73,7 @@
 body{
 	font-family: fuente;
 	background-color: white;
+	margin-top: -5px;
 }
 #grito{
 	text-transform: uppercase;
@@ -108,7 +109,7 @@ h4, .precio{
 }
 .precio{
 	font-weight: bold;
-	color: grey;
+	color: green;
 	font-size: 25px;
 	margin-left: auto;
 	margin-right: 0;
