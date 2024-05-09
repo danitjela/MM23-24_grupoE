@@ -1,3 +1,26 @@
+@font-face{
+	font-family: fuente;
+	src: url('Fonts/Merienda-VariableFont_wght.ttf');
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: fuente;
+	background-color: white;
+	margin-top: -5px;
+}
+
+
+
+div{
+	margin: 2px;
+	padding: 2px;
+}
+#menu{
+	margin: 0;
+	padding: 0;
+}
 #menu ul{
 	list-style-type: none;
 	margin: 0;
@@ -17,26 +40,21 @@
 }
 #menu li a:hover{
 	background-color: lightblue;
+
 }
 #caja1 {
-	position: fixed;
+	position: sticky;
+	top: 0;
 	width: 100%;
 	background-color: black;
 	z-index: 1000;
 	
-	margin: 0 auto;
+	margin: 0;
+	padding: 0;
 	text-align: center;
 
 }
-#caja1_1 {
-	
-	
-	background-color: white;
-	
-	
-	margin: 0 auto;
-	text-align: center;
-}
+
 #empresa{
 	display: inline-block;
 	vertical-align: middle;
@@ -45,35 +63,22 @@
 	margin-right: 50px;
 }
 #caja0 {
-	position: fixed;
 	width: 100%;
-	background-color: black;
+	background-color: #000;
 	z-index: 1000;
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 8px
-	margin-top: -10px;
-	margin-left: -7.8px
-}
-#caja0_1 {
-	
+	padding: 20px 0px;
 
-	background-color: white;
+	margin: 0;
 
-	padding-top: 15px;
-	padding-bottom: 8px
-	text-align: center;
+
 }
+
 
 #logo{
 	display: inline-block;
 	margin-right: 20px;
 	vertical-align: middle;
-}
-body{
-	font-family: fuente;
-	background-color: white;
-	margin-top: -5px;
 }
 #grito{
 	text-transform: uppercase;
@@ -84,18 +89,23 @@ body{
 }
 .contribuciones{
 	border: 3px solid black;
-	padding: 10px;
 	flex-grow: 1;
 	width: 40%;
+	margin: 0;
+	margin-block-end: auto;
 }
 #texto{
 	flex-grow: 3;
 }
 #columna2{
 	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
 }
 #columna1{
 	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
 }
 #columnaImagen{
 	flex-grow: 1;
@@ -114,26 +124,19 @@ h4, .precio{
 	margin-left: auto;
 	margin-right: 0;
 }
+#orgRecompensas{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cajaRecompensas{
+	border: 2px solid #000;
+}
 .cajaContribucion {
     display: flex;
    align-items: center;
 }
 
-@media screen and (max-width:500px){
-	#columna1{
-		flex-direction: column;
-	}
-	#columna2{
-		flex-direction: column;
-	}
-	
-	.contribuciones{
-		width: 100%;
-	}
-	.contenido{
-		padding: 10px;
-	}
-}
 
 #imagenPrincipal{
 	width: 400px;
@@ -146,6 +149,9 @@ h4, .precio{
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
+	margin: 0;
+	flex-wrap: wrap;
+
 }
 
 #redes{
@@ -157,7 +163,27 @@ h4, .precio{
     padding: 20px;
     flex-grow: 1;
 }
-@font-face{
-	font-family: fuente;
-	src: url('Fonts/ThemundayEsp2.ttf') format('trueype');
+@media screen and (max-width:800px){
+	#columna1{
+		flex-direction: column;
+		justify-content: center;
+	}
+	#columnaImagen{
+		display: flex;
+		justify-content: center;
+	}
+	#columna2{
+		flex-direction: column;
+	}
+	
+	.contribuciones{
+		width: 100%;
+	}
+	.contenido{
+		padding: 10px;
+	}
+	#columna2{
+		flex-flow: column;
+	}
+	
 }
