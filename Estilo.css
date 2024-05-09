@@ -143,6 +143,9 @@ h4, .precio{
 	height: 200px;
 
 }
+#Comentarios{
+	text-align: center;
+}
 #info{
     color: #fff;
     background-color: #444;
