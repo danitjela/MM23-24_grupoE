@@ -42,7 +42,9 @@ div{
 	background-color: lightblue;
 
 }
-
+#VideoPromocional h2{
+	text-align: center;
+}
 .cajaContribucion:hover{
 	background-color: rgba(173, 216, 230, 0.378);
 }
