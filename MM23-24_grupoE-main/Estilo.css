@@ -1,0 +1,242 @@
+@font-face{
+	font-family: fuente;
+	src: url('Fonts/Merienda-VariableFont_wght.ttf');
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: fuente;
+	background-color: white;
+	margin-top: -5px;
+}
+
+
+
+div{
+	margin: 2px;
+	padding: 2px;
+}
+#menu{
+	margin: 0;
+	padding: 0;
+}
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#menu li{
+	display: inline-block;
+	margin-right: 10px;
+}
+#menu li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+}
+#menu li a:hover{
+	background-color: lightblue;
+
+}
+
+.cajaContribucion:hover{
+	background-color: rgba(173, 216, 230, 0.378);
+}
+#caja1 {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: black;
+	z-index: 1000;
+	
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+#empresa{
+	display: inline-block;
+	vertical-align: middle;
+	color: skyblue;
+	font-size: 45px;
+	margin-right: 50px;
+}
+#caja0 {
+	width: 100%;
+	background-color: #000;
+	z-index: 1000;
+	text-align: center;
+	padding: 20px 0px;
+
+	margin: 0;
+
+
+}
+
+
+#logo{
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+#grito{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	color: darkgreen;
+	text-align: center;
+}
+.contribuciones{
+	border: 3px solid black;
+	flex-grow: 1;
+	width: 40%;
+	margin: 0;
+	margin-block-end: auto;
+}
+#texto{
+	flex-grow: 3;
+}
+#columna2{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+}
+#columna1{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+}
+#columnaImagen{
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10%;
+}
+#columnaDescripcion{
+	flex-grow: 2;
+	padding: 20px;
+
+}
+h4, .precio{
+	display: inline-block;
+}
+.precio{
+	font-weight: bold;
+	color: green;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: 0;
+}
+#orgRecompensas{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cajaRecompensas{
+	border: 2px solid #000;
+}
+
+.textContribuciones{
+	color: #fff;
+
+}
+.cajaContribucion {
+    display: flex;
+   align-items: center;
+   background-image: url("Imagenes/MARCO2.png");
+   background-position: center;
+   background-size: cover;
+
+   
+}
+
+.cajaCorta{
+	background-image: url("Imagenes/MARCO2RECORTADO.png");
+}
+
+
+#imagenPrincipal{
+	width: 400px;
+	height: 240px;
+
+}
+#Comentarios{
+	text-align: center;
+}
+#info{
+    color: #fff;
+    background-color: #444;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+	margin: 0;
+	flex-wrap: wrap;
+
+}
+
+#redes, #nombres{
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#cajaDisclaimer{
+	display: flex;
+	flex-direction: column;
+}
+.boton{
+	display: block;
+	text-align: center;
+	
+}
+ .boton button{
+ 	width: 100%;
+ 	padding: 10px;
+ 	font-size: 16px;
+ 	background-color: lightgreen;
+ 	color: black;
+ 	border: 2px solid black;
+ }
+ .boton button:hover{
+ 	background-color: green;
+ }
+
+
+section{
+	scroll-margin-top: 50px;
+}
+@media screen and (max-width:800px){
+	#columna1{
+		flex-direction: column;
+		justify-content: center;
+	}
+	#columnaImagen{
+		display: flex;
+		justify-content: center;
+	}
+	#columna2{
+		flex-direction: column;
+	}
+	
+	.contribuciones{
+		width: 100%;
+	}
+	.contenido{
+		padding: 10px;
+	}
+	#columna2{
+		flex-flow: column;
+	}
+
+	.cajaContribucion{
+		background-image: url("Imagenes/MARCO3.png");
+	}
+	
+}
