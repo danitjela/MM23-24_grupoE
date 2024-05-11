@@ -109,7 +109,7 @@ div{
 #texto{
 	flex-grow: 3;
 	margin-left: 10%;
-	
+
 }
 #columna2{
 	display: flex;
@@ -284,7 +284,11 @@ section{
 		margin-right: 10%;
 		margin-left: 10%;
 	}
-
+	#logo, #imagenPrincipal, #empresa{
+		max-width: 100%;
+		height: auto;
+	}
+	
 	.contenedorVideo{
 		position: relative;
 		overflow: hidden;
