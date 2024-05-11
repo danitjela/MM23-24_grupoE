@@ -108,6 +108,8 @@ div{
 }
 #texto{
 	flex-grow: 3;
+	margin-left: 10%;
+	
 }
 #columna2{
 	display: flex;
@@ -274,6 +276,13 @@ section{
 
 	.cajaContribucion{
 		background-image: url("Imagenes/MARCO3.png");
+	}
+	#texto{
+		margin-right: 10%;
+	}
+	#columnaDescripcion{
+		margin-right: 10%;
+		margin-left: 10%;
 	}
 
 	.contenedorVideo{
