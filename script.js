@@ -20,6 +20,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const sonidoBoton = document.getElementById('sonidoBoton');
+    const botonesContribuir = document.querySelectorAll('.boton button');
+
+    botonesContribuir.forEach(boton => {
+        boton.addEventListener('click', function() {
+            sonidoBoton.currentTime = 0; 
+            sonidoBoton.play();
+        });
+    });
+});
 
 socialLinks.forEach(link => {
     link.addEventListener('click', function(event) {
