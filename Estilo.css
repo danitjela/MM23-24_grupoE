@@ -316,5 +316,9 @@ section{
 	audio{
 		width: 95%;
 	}
-	
+	.contenedorAudio{
+		margin-left: 10%;
+		display: flex;
+		flex-direction: column;
+	}
 }
