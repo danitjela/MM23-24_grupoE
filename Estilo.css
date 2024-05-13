@@ -14,9 +14,6 @@ body{
 .contenedorAudio {
   display: flex;
   justify-content: center;
-  flex-flow: column;
-  margin: 0 auto;
-  margin-left: 10%;
 }
 
 
@@ -24,9 +21,7 @@ body{
 	text-align: center;
 }
 
-#cancion{
-	margin: 0 auto;
-}
+
 div{
 	margin: 2px;
 	padding: 2px;
